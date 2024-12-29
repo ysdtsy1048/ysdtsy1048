@@ -4,7 +4,7 @@ on:
   pull_request:
   workflow_dispatch:
 
-test:
+jobs:
   textlint:
     runs-on: ubuntu-latest
     timeout-minutes: 10
