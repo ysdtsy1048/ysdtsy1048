@@ -1,48 +1,39 @@
 # 職務経歴書
 
-## 意欲・興味
+## Will
 
-- xxx
+* 誰もがデータドリブンな意思決定ができるデータに強い組織・文化を作るデータエンジニア
+* 効率的に運用可能なスケーラブルかつ、変化に強いサステナブルなデータ基盤を事業・組織の規模に合わせて提案・構築・運用するデータエンジニア
 
 ## スキル
 
-### 開発手法
-
-xxx
-
-### 言語
-
-xxx
-
-### フレームワーク等
-
-xxx
-
-### 通信プロトコル
-
-xxx
-
-### RDB
-
-xxx
-
-### クラウド
-
-#### AWS
-
-xxx
-
-#### Google Cloud
-
-xxx
-
-### SaaS/PaaS
-
-xxx
-
-### その他
-
-xxx
+スキル | 利用ケース
+-- | --
+Airbyte | 技術検証
+Airflow Self Hosted / Cloud Composer | 構築2組織・運用計5年~
+Amazon Athena | 構築2組織・運用計3年~
+Amazon ECS | 構築1組織・運用3年~
+Amazon Kinesis | 運用3年~
+Amazon RDS | 運用3年~
+Astronomer Cosmos | 構築1組織・運用~1年
+AWS Glue | 構築2組織・運用3年~
+AWS Lambda | 構築2組織・運用3年~
+AWS Step Functions | 運用2年~
+BigQuery | 構築1組織・運用3年~
+Cloud Build | 構築1組織・運用3年~
+Cloud DLP | 構築1組織・運用1年~
+Cloud Function | 構築1組織・運用3年~
+Cloud Pub / Sub | 構築1組織・運用3年~
+Cloud Run | 構築1組織・運用3年~
+Datadog | 運用3年~
+Dataflow | 構築1組織・運用1年~
+Dataform | 構築1組織・運用2年~
+Dataplex | 運用2年
+dbt Core | 構築1組織・運用1年~
+Docker | 構築2組織・運用5年~
+ElasticSearch / OpenSearch | 構築1組織・運用3年~
+Embulk | 運用3年
+GitHub Actions | 構築1組織・運用2年~
 
 ## 職務経歴詳細
 
