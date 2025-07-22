@@ -10,30 +10,30 @@
 スキル | 利用ケース
 -- | --
 Airbyte | 技術検証
-Airflow Self Hosted / Cloud Composer | 構築2組織・運用計5年~
-Amazon Athena | 構築2組織・運用計3年~
-Amazon ECS | 構築1組織・運用3年~
-Amazon Kinesis | 運用3年~
-Amazon RDS | 運用3年~
-Astronomer Cosmos | 構築1組織・運用~1年
-AWS Glue | 構築2組織・運用3年~
-AWS Lambda | 構築2組織・運用3年~
-AWS Step Functions | 運用2年~
-BigQuery | 構築1組織・運用3年~
-Cloud Build | 構築1組織・運用3年~
-Cloud DLP | 構築1組織・運用1年~
-Cloud Function | 構築1組織・運用3年~
-Cloud Pub / Sub | 構築1組織・運用3年~
-Cloud Run | 構築1組織・運用3年~
-Datadog | 運用3年~
-Dataflow | 構築1組織・運用1年~
-Dataform | 構築1組織・運用2年~
-Dataplex | 運用2年
-dbt Core | 構築1組織・運用1年~
-Docker | 構築2組織・運用5年~
-ElasticSearch / OpenSearch | 構築1組織・運用3年~
-Embulk | 運用3年
-GitHub Actions | 構築1組織・運用2年~
+Airflow Self Hosted / Cloud Composer | 構築 2 組織・運用計 5 年~
+Amazon Athena | 構築 2 組織・運用計 3 年~
+Amazon ECS | 構築 1 組織・運用 3 年~
+Amazon Kinesis | 運用 3 年~
+Amazon RDS | 運用 3 年~
+Astronomer Cosmos | 構築 1 組織・運用~1 年
+AWS Glue | 構築 2 組織・運用 3 年~
+AWS Lambda | 構築 2 組織・運用 3 年~
+AWS Step Functions | 運用 2 年~
+BigQuery | 構築 1 組織・運用 3 年~
+Cloud Build | 構築 1 組織・運用 3 年~
+Cloud DLP | 構築 1 組織・運用 1 年~
+Cloud Function | 構築 1 組織・運用 3 年~
+Cloud Pub / Sub | 構築 1 組織・運用 3 年~
+Cloud Run | 構築 1 組織・運用 3 年~
+Datadog | 運用 3 年~
+Dataflow | 構築 1 組織・運用 1 年~
+Dataform | 構築 1 組織・運用 2 年~
+Dataplex | 運用 2 年
+dbt Core | 構築 1 組織・運用 1 年~
+Docker | 構築 2 組織・運用 5 年~
+ElasticSearch / OpenSearch | 構築 1 組織・運用 3 年~
+Embulk | 運用 3 年
+GitHub Actions | 構築 1 組織・運用 2 年~
 
 ## 職務経歴詳細
 
