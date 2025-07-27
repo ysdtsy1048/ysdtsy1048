@@ -11,19 +11,19 @@
 
 データ基盤を運用するデータエンジニアが最も重要視すべきことは「視座高く多方面とコミュニケーションをとること」だと考えています。
 
-* データ基盤の上流・下流において、何かしらの形ですべての組織の人間がステークホルダーとして存在しています。
-* 組織のデータ利活用においてもっとも大局を見れる立場であるため、データ基盤をハブとして組織間のシナジーに貢献できると考えます。
-* 逆にこの視座が低い状態だとデータ基盤のインフラとしての側面が目立ち、障害等を起こさないようにマイナスから０を目指す不健全な状況に陥ってしまう危険性があります。
+* データ基盤の上流・下流において、何かしらの形ですべての組織の人間がステークホルダーとして存在しています
+* 組織のデータ利活用においてもっとも大局を見れる立場であるため、データ基盤をハブとして組織間のシナジーに貢献できると考えます
+* 逆にこの視座が低い状態だとデータ基盤のインフラとしての側面が目立ち、障害等を起こさないようにマイナスから０を目指す不健全な状況に陥ってしまう危険性があります
 
 【大切にしていること②】
 
 データ基盤は「スケーラブルかつサステナブルであること」が求められると考えています。
 
-* データ利活用が進めば進むほど、データ基盤がボトルネックになる事案が発生しがちです。
-* 組織にあった方法でいかにスケーラブルな枠組みを構築していくかが大切であり、昨今の LLM Agent の介在余地がある個所だと考えます。
-* 私の経験と見聞きした範囲では、データ基盤は常として少数での開発・運用が行われており、人材の新陳代謝も比較的激しい印象がありますが、新陳代謝は属人化が緩和されるポジティブな側面もあります。
-* 技術の新陳代謝ももちろん激しい領域であり、データエンジニアの面白味の一つであるとも感じます。
-* そういった新陳代謝を変化として意識しつつ、何かを作る際・誰かと決定を下す際は必ず中長期的な持続可能性を重視しています。
+* データ利活用が進めば進むほど、データ基盤がボトルネックになる事案が発生しがちです
+* 組織にあった方法でいかにスケーラブルな枠組みを構築していくかが大切であり、昨今の LLM Agent の介在余地がある個所だと考えます
+* 私の経験と見聞きした範囲では、データ基盤は常として少数での開発・運用が行われており、人材の新陳代謝も比較的激しい印象がありますが、新陳代謝は属人化が緩和されるポジティブな側面もあります
+* 技術の新陳代謝ももちろん激しい領域であり、データエンジニアの面白味の一つであるとも感じます
+* そういった新陳代謝を変化として意識しつつ、何かを作る際・誰かと決定を下す際は必ず中長期的な持続可能性を重視しています
 
 ## スキル
 
@@ -86,7 +86,7 @@ Terraform | データ基盤・データプロダクト インフラ構築 | 運�
 
 【目的】
 
-* 500以上のクエリの依存関係を Airflow で手動管理していることによる、依存関係の逆転等の品質問題の解消
+* 500 以上のクエリの依存関係を Airflow で手動管理していることによる、依存関係の逆転等の品質問題の解消
 * データ基盤運用工数の削減
     * テーブルのパーティション情報等の手動定義オペレーションの自動化
     * dag 開発オペレーションの効率化
@@ -98,7 +98,11 @@ Terraform | データ基盤・データプロダクト インフラ構築 | 運�
 
 【環境】
 
-BigQuery, dbt Core, Astronomer Cosmos, Cloud Composer
+* BigQuery
+* Cloud Composer
+* dbt Core
+* GCP Dataform
+* Terraform
 
 【内容】
 
@@ -134,7 +138,10 @@ BigQuery, dbt Core, Astronomer Cosmos, Cloud Composer
 
 【環境】
 
-BigQuery, dbt, Dataplex, Gemini API
+* BigQuery
+* dbt
+* Dataplex
+* Gemini API
 
 【内容】
 
@@ -172,7 +179,11 @@ BigQuery, dbt, Dataplex, Gemini API
 
 【環境】
 
-BigQuery, Cloud Billing, Cloud Composer, GCS, Looker
+* BigQuery
+* Cloud Billing
+* Cloud Composer
+* GCS
+* Looker
 
 【内容】
 * コスト状況の可視化と対応優先度付け
@@ -214,7 +225,8 @@ BigQuery, Cloud Billing, Cloud Composer, GCS, Looker
 
 【環境】
 
-BigQuery, Cloud Composer
+* BigQuery
+* Cloud Composer
 
 【内容】
 
@@ -255,7 +267,9 @@ BigQuery, Cloud Composer
 
 【環境】
 
-BigQuery, GCP Dataform, Terraform
+* BigQuery
+* GCP Dataform
+* Terraform
 
 【内容】
 * 移行基盤の整備
@@ -265,7 +279,7 @@ BigQuery, GCP Dataform, Terraform
     * ユーザーグループごとの移行計画策定と実行
     * Transform 環境の段階的移行による影響範囲の最小化
 * 利用者支援の実施
-    * 利用者向けハンズオン（計3回）の実施
+    * 利用者向けハンズオン（計 3 回）の実施
     * 個別伴走支援による移行のサポート
 
 【成果】
@@ -291,7 +305,14 @@ BigQuery, GCP Dataform, Terraform
 
 【環境】
 
-Amazon RDS, BigQuery, Cloud DLP, Cloud Run, Dataflow, PostgreSQL, Python, S3
+* Amazon RDS
+* BigQuery
+* Cloud DLP
+* Cloud Run
+* Dataflow
+* PostgreSQL
+* Python
+* S3
 
 【内容】
 * セキュアな ETL パイプラインの構築
@@ -318,7 +339,7 @@ Amazon RDS, BigQuery, Cloud DLP, Cloud Run, Dataflow, PostgreSQL, Python, S3
 
 * スタディサプリに検索機能導入する
 * 講義動画の文字起こしテキストを検索フィールドに利用する
-* リリース後のエンハンスを視野に分析可能なログの蓄積とABテスト機構の導入を行う
+* リリース後のエンハンスを視野に分析可能なログの蓄積と AB テスト機構の導入する
 
 【役割】
 
@@ -328,11 +349,19 @@ Amazon RDS, BigQuery, Cloud DLP, Cloud Run, Dataflow, PostgreSQL, Python, S3
 
 【環境】
 
-Dataflow, DynamoDB, EKS, Google Speech-to-Text, Google Workflow, Kinesis, Amazon OpenSearch Service, Python, Terraform
+* Amazon OpenSearch Service
+* Dataflow
+* DynamoDB
+* EKS
+* Google Speech-to-Text
+* Google Workflow
+* Kinesis
+* Python
+* Terraform
 
 【内容】
 
-* 検索エンジンとして OpenSearch を新規採用すべく、機能検証および構築を行う
+* 検索エンジンとして OpenSearch を新規採用すべく、機能検証および構築
 * 講義動画を効率的かつ料金・運用コストの観点で安価に文字起こしするために、サーバレスかつストリーム処理が可能な Dataflow を採用
 * カウンターパートと検索要件の整理および API 設計
 * カウンターパートと非機能要件の整理および負荷試験の実施、エラー率・レスポンス・データ鮮度の SLO を策定
@@ -353,7 +382,7 @@ Dataflow, DynamoDB, EKS, Google Speech-to-Text, Google Workflow, Kinesis, Amazon
 2024/07 ~ 2024/08
 
 【目的】
-* 日本国内・アジア圏の工場 数十拠点 の生産データを統合的に分析できる基盤の構築
+* 日本国内・アジア圏の工場数十拠点の生産データを統合的に分析できる基盤の構築
 * Excel ベースの手動集計作業の自動化による業務効率化
 * 運用コストとインフラ料金の最適化
 
@@ -364,7 +393,11 @@ Dataflow, DynamoDB, EKS, Google Speech-to-Text, Google Workflow, Kinesis, Amazon
 
 【環境】
 
-AWS Glue, Amazon Athena, AWS Lambda, GitHub Actions, Python
+* Amazon Athena
+* AWS Glue
+* AWS Lambda
+* GitHub Actions
+* Python
 
 【内容】
 * ETL パイプラインの構築
@@ -372,7 +405,7 @@ AWS Glue, Amazon Athena, AWS Lambda, GitHub Actions, Python
     * Athena による分析環境の整備（DDL/DML の設計・実装）
 * レポーティング基盤の整備
     * Glue による自動レポート生成処理の実装
-    * Lambda による 顧客向け Slack bot の実装・提供
+    * Lambda による顧客向け Slack bot の実装・提供
     * Excel テンプレートを用いた経営層向けレポート出力機能の開発
 * 運用効率化の実現
     * GitHub Actions による CI/CD パイプラインの構築
@@ -380,10 +413,10 @@ AWS Glue, Amazon Athena, AWS Lambda, GitHub Actions, Python
 
 【成果】
 
-* 2カ月の短納期で手作業での Excel 集計作業を自動化し、データ集計時間を大幅に削減するデータ基盤を納品
+* 2 カ月の短納期で手作業での Excel 集計作業を自動化し、データ集計時間を大幅に削減するデータ基盤を納品
 * AWS マネージドサービスを活用し、運用コストを最小限に抑えた基盤を構築
 
-### 株式会社D2C
+### 株式会社 D2C
 
 #### データサイエンティストのための分析基盤開発
 
@@ -394,7 +427,7 @@ AWS Glue, Amazon Athena, AWS Lambda, GitHub Actions, Python
 【目的】
 
 * データサイエンティストの作業効率化
-* AWSインフラ費用の削減
+* AWS インフラ費用の削減
 * セキュリティ向上
 
 【役割】
@@ -404,19 +437,25 @@ AWS Glue, Amazon Athena, AWS Lambda, GitHub Actions, Python
 
 【環境】
 
-Amazon EKS, Docker, JupyterHub, Terraform, Prometheus, Grafana, Python
+* Amazon EKS
+* Docker
+* JupyterHub
+* Python
+* Prometheus
+* Grafana
+* Terraform
 
 【内容】
 
-* JupyterHub on Kubernetesの調査及びデータサイエンティストへのヒアリング
-* Athenaと連携し、かつセキュアな状態を保てるように設計・開発
+* JupyterHub on Kubernetes の調査及びデータサイエンティストへのヒアリング
+* Athena と連携し、かつセキュアな状態を保てるように設計・開発
 * 分析者の利用料金（インスタンスやクエリ代）を可視化し、分析者へ公開
-* qiitaにて記事の執筆：https://qiita.com/ysdtsy/items/ebe5f4bf1addc5db606d
+* qiita にて記事の執筆：https://qiita.com/ysdtsy/items/ebe5f4bf1addc5db606d
     
 【成果】
 
 * 環境構築が不要となり、分析以外の工数を大幅削減
-* 部内AWSインフラ費用を 70% 削減
+* 部内 AWS インフラ費用を 70% 削減
 * ネットワーク制限と特権ユーザーの廃止
 
 #### ■ ETL 開発の効率化
@@ -436,22 +475,28 @@ ETL 開発の作業効率化
 
 【環境】
 
-Amazon EKS, Docker, Apache Airflow, Argo Workflow, Terraform, CloudFormation, Python
+* Amazon EKS
+* Apache Airflow
+* Argo Workflow
+* CloudFormation
+* Docker
+* Python
+* Terraform
 
 【内容】
 
 * Airflow, Argo Workflow の調査
 * 分析環境へ組み込み、かつプロダクト環境へも配布できるように設計・開発
-* 各種サービス（Athena, Glue, EMR on EKS, Argo Workflow等）のクライアント wrapper モジュールの開発及び提供
+* 各種サービス（Athena, Glue, EMR on EKS, Argo Workflow 等）のクライアント wrapper モジュールの開発及び提供
 * dag の管理とコードレビュー
 
 【成果】
 
-* 今までglueやecsで個別されていたスケジューリングは Airflow に統一、コンテナの実行環境は Argo Workflow に統一。これによりジョブ開発の効率化を達成
-* 数日かかっていた各プロダクトのワークフロー環境構築を1時間程度での構築工数まで削減
+* 今まで glue や ecs で個別されていたスケジューリングは Airflow に統一、コンテナの実行環境は Argo Workflow に統一。これによりジョブ開発の効率化を達成
+* 数日かかっていた各プロダクトのワークフロー環境構築を 1 時間程度での構築工数まで削減
 
 
-#### リアルタイムCTR予測システムの開発
+#### リアルタイム CTR 予測システムの開発
 
 【期間】
 
@@ -459,7 +504,7 @@ Amazon EKS, Docker, Apache Airflow, Argo Workflow, Terraform, CloudFormation, Py
 
 【目的】
 
-アドネットワークへのリアルタイムCTR予測システムの導入
+アドネットワークへのリアルタイム CTR 予測システムの導入
 
 【役割】
 
@@ -468,12 +513,19 @@ Amazon EKS, Docker, Apache Airflow, Argo Workflow, Terraform, CloudFormation, Py
 
 【環境】
 
-Amazon EKS, Docker, Envoy Proxy, gRPC, Gatling, MLFlow, DecisionTree, Python
+* Amazon EKS
+* DecisionTree
+* Docker
+* Envoy Proxy
+* Gatling
+* gRPC
+* MLFlow
+* Python
 
 【内容】
 
 * 速度要件（20ms, 10,000tps）を達成するアーキテクトの設計
-* DecisionTreeによるCTR予測モデルの学習及びオフライン評価
+* DecisionTree による CTR 予測モデルの学習及びオフライン評価
 * 継続学習のためのパイプライン構築
 
 【成果】
@@ -481,7 +533,7 @@ Amazon EKS, Docker, Envoy Proxy, gRPC, Gatling, MLFlow, DecisionTree, Python
 * リアルタイム予測モデルの本番安定稼働
 
 
-#### スケーラブルなCTR予測システムの開発
+#### スケーラブルな CTR 予測システムの開発
 
 【期間】
 
@@ -489,7 +541,7 @@ Amazon EKS, Docker, Envoy Proxy, gRPC, Gatling, MLFlow, DecisionTree, Python
 
 【目的】
 
-メール型運用広告へのCTR予測モデルの導入
+メール型運用広告への CTR 予測モデルの導入
 
 【役割】
 
@@ -498,15 +550,22 @@ Amazon EKS, Docker, Envoy Proxy, gRPC, Gatling, MLFlow, DecisionTree, Python
 
 【環境】
 
-Amazon EKS, Docker, Amazon SNS, Amazon SQS, CircleCI, Terraform, LightGBM, Python
+* Amazon EKS
+* Amazon SNS
+* Amazon SQS
+* CircleCI
+* Docker
+* LightGBM
+* Python
+* Terraform
 
 【内容】
 
 * 日次バッチ予測を高速化するためのアーキテクト検証・設計
-* LightGBMによるCTR予測モデルの学習及びオフライン評価
+* LightGBM による CTR 予測モデルの学習及びオフライン評価
 * 継続学習のためのパイプライン構築
 * プロダクトへの予測アーキテクト組み込み
-* Kubernetes Meetup Tokyo #27に登壇：https://www.slideshare.net/ToshiyaYoshida3/amazon-eksctr
+* Kubernetes Meetup Tokyo #27 に登壇：https://www.slideshare.net/ToshiyaYoshida3/amazon-eksctr
 
 【成果】
 
@@ -520,7 +579,7 @@ Amazon EKS, Docker, Amazon SNS, Amazon SQS, CircleCI, Terraform, LightGBM, Pytho
 
 【目的】
 
-オンプレHadoopへのKerberos認証導入
+オンプレ Hadoop への Kerberos 認証導入
 
 【役割】
 
@@ -529,7 +588,9 @@ Amazon EKS, Docker, Amazon SNS, Amazon SQS, CircleCI, Terraform, LightGBM, Pytho
 
 【環境】
 
-Hadoop, Kerberos 認証, Active Directory
+* Active Directory
+* Hadoop
+* Kerberos
 
 【内容】
 
@@ -538,4 +599,4 @@ Hadoop, Kerberos 認証, Active Directory
 
 【成果】
 
-Kerberos認証の導入により、未認証でアクセス可能であったセキュリティリスクを解消し、社内基準に準拠したセキュアなHadoop環境を実現
+Kerberos 認証の導入により、未認証でアクセス可能であったセキュリティリスクを解消し、社内基準に準拠したセキュアな Hadoop 環境を実現
