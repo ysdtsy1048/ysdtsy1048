@@ -516,7 +516,9 @@ Terraform | データ基盤・データプロダクトのインフラ構築 | �
 ### ■ スケーラブル CTR 予測システムの開発（株式会社 D2C）
 
 **期間：** 2019/6 〜 2019/10   
-**役割：** 設計／モデル開発／システム開発（メンバー 2 名）**ステークホルダー：** SE **関連技術：** Amazon EKS / LightGBM / Python / Docker / Terraform / SNS / SQS / CircleCI
+**役割：** 設計／モデル開発／システム開発（メンバー 2 名）  
+**ステークホルダー：** SE  
+**関連技術：** Amazon EKS / LightGBM / Python / Docker / Terraform / SNS / SQS / CircleCI
 
 #### 課題
 
