@@ -218,8 +218,7 @@ Terraform | データ基盤・データプロダクトのインフラ構築 | �
   - スキーマ YAML ファイル数：**1700+**
 
 - **実行基盤の構築**
-  - astronomer-cosmos により
-    dbt モデル依存関係から Airflow DAG を自動生成
+  - astronomer-cosmos により dbt モデル依存関係から Airflow DAG を自動生成
 
 - **CI/CD の刷新**
   - CI/CD ワークフロー数：
